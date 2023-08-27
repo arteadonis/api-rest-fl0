@@ -1,5 +1,5 @@
 {
-  "name": "curso-node",
+  "name": "api-rest",
   "version": "1.0.0",
   "description": "curso de node",
   "main": "index.js",
@@ -7,12 +7,13 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node ./clase3/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./clase3/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arteadonis/node-course.git"
+    "url": "git+https://github.com/arteadonis/api-rest-fl0.git"
   },
   "keywords": [
     "course",
@@ -21,12 +22,11 @@
   "author": "Adonis Mendoza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arteadonis/node-course/issues"
+    "url": "https://github.com/arteadonis/api-rest-fl0/issues"
   },
-  "homepage": "https://github.com/arteadonis/node-course#readme",
+  "homepage": "https://github.com/arteadonis/api-rest-fl0#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "picocolors": "1.0.0",
     "zod": "^3.22.2"
   },
   "devDependencies": {
